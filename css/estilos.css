@@ -1,12 +1,12 @@
 /* estilos personalizados  */
 
 body { 
-    font-size: 1.4rem;
+    font-size: 1.2rem;
 }
 
 /* color de navbar */
 .fondo-nav{
-    background:#35fbc0 !important;
+    background:#fff !important;
     
 }
 
@@ -30,7 +30,7 @@ body {
 }
 
 #footer{
-    background:#35fbc0 ;
+    background:#c2e0d7 ;
 }
 
 a { 

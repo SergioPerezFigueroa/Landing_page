@@ -9,7 +9,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
         integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
-
+        
     <!-- Estilos propios -->
     <link rel="stylesheet" href="css/estilos.css">
 
@@ -23,55 +23,57 @@
 
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-dark fondo-nav sticky-top" id="menu-navegacion">
-        <div class="container my-1">
-            <a href="index.html" class="navbar-bran">
-                <img src="img/log5ito.png" alt="" class="img-fluid">
+       
+            <a href="#inicio" class="navbar-bran">
+                <img src="img/logito.png" alt="" class="img-fluid">
             </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            <button class="navbar-toggler"  type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
 
-               <div class="collapse navbar-collapse" 
-               id="navbarSupportedContent">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <div class="navbar-val mr-auto ml-auto">
 
-                <ul class="navbar-nav ml-auto"> 
+                    <ul class="navbar-nav ml-auto "> 
 
-                    <li class="nav-item">
-                        <a href="#inicio" class="nav-link">Inicio</a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a href="#descripcion" class="nav-link">¿Quines Somos?</a>
-                    </li>
-
-                    
-                    <li class="nav-item">
-                        <a href="#servicios" class="nav-link">Servicios</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#aplicacion" class="nav-link">Aplicacion</a>
-                    </li>
-                    
-                    <li class="nav-item">
-                        <a href="reultados.html" class="nav-link">Resultados</a>
+                        <li class="nav-item">
+                            <a href="#descripcion" class="nav-link">¿Quines Somos?</a>
+                        </li>
+    
                         
-   
-                    </li>
-                    <li class="nav-item">
-                        <a href="#resultados" class="nav-link">Contactanos</a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a href="#footer" class="nav-link"><button class="btn btn-success" type="submit">Iniciar Sesion</button> </a>
-                                    
-                    </li>
-
-                </ul>
-
-               </div> 
-        </div>
-
+                        <li class="nav-item">
+                            <a href="#servicios" class="nav-link">Servicios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#aplicacion" class="nav-link">Aplicacion</a>
+                        </li>
+                        
+                        <li class="nav-item">
+                            <a href="reultados.html" class="nav-link">Resultados</a>
+                            
+       
+                        </li>
+                        <li class="nav-item">
+                            <!-- <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">Contactanos</button>
+                             --> <a href="#footer" class="nav-link" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">Contactanos</a>
+                        </li>          
+                 
+              </ul>
+            </div>
+       
+            <div>
+                <!--  <li class="nav-item">             <
+                     <button class="btn btn-success" type="submit">Iniciar Sesion</button>
+                 </li>  -->
+                 <a href="" class="btn btn-success" >Iniciar Seccion </a>
+                </div>
+                
+        </div> 
+       
+       
+     
+       
     </nav>
 
     <!-- imagen de cabecera usuar jumbotrin -->
@@ -129,71 +131,96 @@
         </div>
     </section>
 
-
-    <!-- servicios -->
-    
-<section id="servicios">
+ <!--Servicios-->
+ <section id="servicios">
     <div class="container">
         <h1 class="text-center mt-5">Nuestros Servicios</h1>
-    </div>
+  
+      <div class="row mt-5">
+          <div class="col-sm-12 col-md-4 text-center">
+              <h2 class="mt-5"><i class="fas fa-running"></i><br>Competencia</h2>
+              <p class="mt-5">Damos soporte a competiciones deportivas </p>
+              <br>
+              <button class="btn btn-danger text-center mb-5">
+                  Ver más <i class="fas fa-arrow-circle-right"></i>
+              </button>
+          </div>
 
-    <div class="row mt-5">
-        <div class="col-sm-12 col-md-4 text-center">
-            <h2 class="mt-5"><i class="fas fa-running"></i><br>Competencia</h2>
-            <p class="mt-5">Damos soporte a  competiciones deportivas   </p>
-       <!--      <br>
-            <button class="btn btn-info text-center mb-5">
-                Ver más <i class="fas fa-arrow-circle-right"></i> -->
-            </button>
-        </div>
-        
-        <div class="col-sm-12 col-md-4 text-center">
+          <div class="col-sm-12 col-md-4 text-center">
             <h2 class="mt-5"><i class="fas fa-poll"></i><br>Estadisticas</h2>
-            <p class="mt-5">Proporcionar resultados confiables,  sobre las estadisticas 
-                de los eventos deportivos </p>
-            <!-- <br>
-            <button class="btn btn-info text-center mb-5">
-                Ver más <i class="fas fa-arrow-circle-right"></i>
-            </button> -->
-        </div>
+              <p class="mt-5">Proporcionar resultados confiables y precisos ,sobre las estadisticas 
+                de los eventos deportivos</p>
+              <br>
+              <button class="btn btn-danger text-center mb-5">
+                  Ver más <i class="fas fa-arrow-circle-right"></i>
+              </button>
+          </div>
 
-        <div class="col-sm-12 col-md-4 text-center">
+          <div class="col-sm-12 col-md-4 text-center">
             <h2 class="mt-5"><i class="fas fa-bullhorn"></i><br> Marketing</h2>
-            <p class="mt-5 ">RunXatruch  le brindarán a su evento mayor reconocimiento y exposición hacia nuevas marcas. Para que una marca patrocinadora obtenga los beneficios esperados del evento,</p>
-            <!-- <br>
-            <button class="btn btn-info text-center mb-5">
-                Ver más <i class="fas fa-arrow-circle-right"></i>
-            </button> -->
-        </div>
-    </div>
+              <p class="mt-5">RunXatruch  le brindarán a su evento mayor reconocimiento y exposición hacia nuevas marcas</p>
+              <br>
+              <button class="btn btn-danger text-center mb-5">
+                  Ver más <i class="fas fa-arrow-circle-right"></i>
+              </button>
+          </div>
+      </div>
+  </div>
 </section>
+
 
 <!-- aplicacion  -->
 
 <section id="aplicacion">
 
-         <div class="container"> 
-            <div class="col-sm-12 col-ms-12 text-center ">
-             <h1 class="text-center mt-5"> Nustra Aplicacion Movil</h1>
-             <p><i class="fab fa-google-play"></i> Descargar</p>
-             </div>
-         </div>
 
-        <div class="row mt-5  no-gutters">
-            <div class="col-sm-12 col-md-3">
-                <img src="img/aplicacion1.jpeg" alt="" class="img-fluid"> 
+    <div class="container"> 
+        <div class="col-sm-12 col-ms-12 text-center ">
+         <h1 class="text-center mt-5"> Nustra Aplicacion Movil</h1>
+         <br>
+         </div>
+     </div>
+     
+    <div class="container">
+        <div class="row">
+        
+            
+            <div class="col-sm-12 col-md-4">
+                <img class=" img-fluid" src="img/celular.png" alt="">
             </div>
-            <div class="col-sm-12 col-md-3">
-                <img src="img/aplicacion2.jfif" alt="" class="img-fluid"> 
+
+            <div class="col-sm-12 col-md-2">
+                
             </div>
-            <div class="col-sm-12 col-md-3">
-                <img src="img/aplicacion3.jpeg" alt="" class="img-fluid"> 
-            </div>
-            <div class="col-sm-12 col-md-3">
-                <img src="img/aplicacion4.jfif" alt="" class="img-fluid"> 
+
+            <div class="col-sm-12 col-md-6">
+               
+                <img class=" img-fluid" src="img/logito.png" alt="">
+                <h2><b>RunXatruch</b></h2>
+                
+                <h5>REGISTRA TUS ACTIVIDADES DEPORTIVAS</h5>
+                <h5> PROGRESA y TRUNFA</h5>
+                <br>
+                <h6>Registra tu entrenamientos y analiza las estadisticas 
+                unete a competiciones y saca al atleta que llevas dentro, desafiando tus limites.
+                 ¿Te animas? Descarga la app RunXatruch y ponte en forma con nosotros    
+            </h6>
+              
+              
+                <div  class="text-center" >
+                    <br>
+                    <a href="https://play.google.com/store" text-white> <img class=" img-fluid " src="img/google-play.png" alt=""></a>
+                </div>
+                   
+               
+            
+                <div class="col-sm-12 col-md-1">
+                
+                </div>
+                
             </div>
         </div>
- 
+    </div>
 </section>
 
 <br>
@@ -272,6 +299,55 @@
     </section>
 </footer>
 
+
+
+<!-- modal  de contacto -->
+
+
+
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Ingrese los datos porfavor</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form>
+
+            <div class="form-group">
+                <label for="organizacion">Organizacion:</label>
+                <input type="text" class="form-control" placeholder="Nombre de la organizacion">
+            </div>
+            <div class="form-group">
+                <label for="nombre">Nombre</label>
+                <input type="text" class="form-control" placeholder="Ingresa tu nombre">
+            </div>
+    
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" class="form-control" placeholder="Ingresa tu email">
+            </div>
+            <div class="form-group">
+                <label for="telefono">Telefono:</label>
+                <input type="number" class="form-control" placeholder="Ingrese su numero">
+              </div>
+
+              
+          <div class="form-group">
+            <label for="mensaje">Mensaje:</label>
+            <textarea class="form-control"></textarea>
+          </div>
+
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+
+            <button type="submit" class="btn btn-primary  text-center ">Enviar</button>
+        </form>
+    </div>
+  </div>
+</div>
 
 
     <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
